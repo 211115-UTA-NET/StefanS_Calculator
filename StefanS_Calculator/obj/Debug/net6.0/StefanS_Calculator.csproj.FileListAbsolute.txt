@@ -1,0 +1,15 @@
+C:\Users\schwe\Revature\StefanS_Calculator\bin\Debug\net6.0\StefanS_Calculator.exe
+C:\Users\schwe\Revature\StefanS_Calculator\bin\Debug\net6.0\StefanS_Calculator.deps.json
+C:\Users\schwe\Revature\StefanS_Calculator\bin\Debug\net6.0\StefanS_Calculator.runtimeconfig.json
+C:\Users\schwe\Revature\StefanS_Calculator\bin\Debug\net6.0\StefanS_Calculator.dll
+C:\Users\schwe\Revature\StefanS_Calculator\bin\Debug\net6.0\ref\StefanS_Calculator.dll
+C:\Users\schwe\Revature\StefanS_Calculator\bin\Debug\net6.0\StefanS_Calculator.pdb
+C:\Users\schwe\Revature\StefanS_Calculator\obj\Debug\net6.0\StefanS_Calculator.csproj.AssemblyReference.cache
+C:\Users\schwe\Revature\StefanS_Calculator\obj\Debug\net6.0\StefanS_Calculator.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\schwe\Revature\StefanS_Calculator\obj\Debug\net6.0\StefanS_Calculator.AssemblyInfoInputs.cache
+C:\Users\schwe\Revature\StefanS_Calculator\obj\Debug\net6.0\StefanS_Calculator.AssemblyInfo.cs
+C:\Users\schwe\Revature\StefanS_Calculator\obj\Debug\net6.0\StefanS_Calculator.csproj.CoreCompileInputs.cache
+C:\Users\schwe\Revature\StefanS_Calculator\obj\Debug\net6.0\StefanS_Calculator.dll
+C:\Users\schwe\Revature\StefanS_Calculator\obj\Debug\net6.0\ref\StefanS_Calculator.dll
+C:\Users\schwe\Revature\StefanS_Calculator\obj\Debug\net6.0\StefanS_Calculator.pdb
+C:\Users\schwe\Revature\StefanS_Calculator\obj\Debug\net6.0\StefanS_Calculator.genruntimeconfig.cache
