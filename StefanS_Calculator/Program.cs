@@ -27,7 +27,7 @@ class Program{
     input = Console.ReadLine();
     isNum = float.TryParse(input, out firstNum);
 
-    //Checks for float input
+    //Checks for float input before continuing
     while (isNum == false){
       Console.WriteLine("Not a valid input. Enter first Number:");
       input = Console.ReadLine();
@@ -52,7 +52,7 @@ class Program{
       opInput = Console.ReadLine();
       isOp = opChecker(opInput);
 
-      //Operator entry validation
+      //Operator entry validation with 'opChecker' method
       while (isOp == false){
         Console.WriteLine("Not valid operation. Enter from the following: (a,s,m,d)");
         opInput = Console.ReadLine();
@@ -66,14 +66,14 @@ class Program{
       input = Console.ReadLine();
       isNum = float.TryParse(input, out secondNum);
 
-      //Checks for float input
+      //Checks for float input before continuing
       while (isNum == false){
         Console.WriteLine("Not a valid input. Enter first Number:");
         input = Console.ReadLine();
         isNum = float.TryParse(input, out secondNum);
       }
 
-      //calculate using doCalculation method
+      //calculate using 'doCalculation' method
       output = doCalculation(output, opInput, secondNum);
       Console.WriteLine("\nOutput: " + output + "\n");
       Console.WriteLine("Press 'Enter' continue or type 'EXIT' to end:");
