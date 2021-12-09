@@ -1,0 +1,58 @@
+Reserve Items for pickup at locations
+Due Dec 22nd
+
+Pages:
+1. Welcome (new/existing customer)
+    a. Create New User
+    b. Login page
+2. Main Menu
+    a. Online Store
+    b. Order History
+    c. User Profile
+    d. Log Out
+
+3. Online Store: Location
+    a. 3d Printers
+    b. 3d Filaments
+    c. Refill reminder(optional)
+    d. change location
+
+    3a. Shopping Cart
+    3aa. Checkout(reserve items for pickup)
+
+4. Order History
+    a. all reservations
+    b. reservations by location
+
+
+5. Admin Portal (special login key)
+    a. Search users
+    b. display order history
+    c. display order history of a location
+    d. Run a Special (Message to Display, Discount at checkout)
+
+
+Storage Files:
+    - Created Users
+    - Existing Reservations
+        - Match Users to Reservations with Key#
+    - Inventory
+
+Things to work out:
+Need dataTable class somehow for organization
+can use XML for storage/pulls from files
+using byte for order quantities (throws error code if high)
+
+Testing (XUnit):
+use this style: https://docs.microsoft.com/en-us/dotnet/core/testing/unit-testing-with-dotnet-test
+ -Test for existing user
+ -Test for rediculous order quantity
+ -Test for sale greater then 100%
+ -Test for order > inventory
+ -Test for new user = Existing user
+ -Test for invalid login
+ -Test for existing user file
+ -Test for existing inventory file
+ -Test for clean shopping cart
+ -Test for existing reservation
+

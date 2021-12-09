@@ -1,0 +1,10 @@
+#!user/bin/bash
+
+echo "please enter a variable"
+
+read variable
+
+echo $variable " is what you entered"
+
+echo "line one"
+echo "line two"
