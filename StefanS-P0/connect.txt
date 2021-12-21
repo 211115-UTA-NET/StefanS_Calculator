@@ -1,0 +1,1 @@
+Server=tcp:21115-sql-stefans.database.windows.net,1433;Initial Catalog=PrintShop;Persist Security Info=False;User ID=SQLADMIN;Password=Frost906!;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;
