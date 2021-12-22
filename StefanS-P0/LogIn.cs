@@ -31,10 +31,12 @@ namespace DigitalStore
             string connect = File.ReadAllText("C:/Users/schwe/Revature/StefanS-P0/connect.txt");           
             SqlConnection connection = new(@connect);
 
-
+            //Input strings for Sql command
             string inputPass = $"INSERT INTO CustomerPasswords (Password) VALUES ('{password}');";
             string inputUser = $"INSERT INTO ExistingCustomers SELECT '{username}',MAX(CustomerID),'{firstName}','{lastName}' FROM CustomerPasswords";
 
+            //validation of connection to Sql Server
+            //Throws error if failed
             try
             {
                  connection.Open();

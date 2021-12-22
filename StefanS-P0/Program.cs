@@ -5,9 +5,10 @@ using System.Data.SqlClient;
 namespace DigitalStore
 {
     public class Program
-    {
+    { 
         public static void Main(string[] args)
         {
+            //Initial system start, displays user options and grabs response as int
             Console.WriteLine("\n---------------------------------");
             Console.WriteLine("Welcome To 3d Refills Online Store");
             Console.WriteLine("---------------------------------");
@@ -16,6 +17,7 @@ namespace DigitalStore
             int input = Int32.Parse(Console.ReadLine());
             Login userEntry = new Login();
             
+            //checks for user input. (integers only)
             if (input == 1)
             {
                 userEntry.NewUser();
@@ -24,9 +26,6 @@ namespace DigitalStore
             {
                 userEntry.ExistingUser();
             }
-            
-
-
         }
     }
 }

@@ -1,15 +1,16 @@
 <Project Sdk="Microsoft.NET.Sdk">
-
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>net6.0</TargetFramework>
+    <GenerateProgramFile>false</GenerateProgramFile>
     <RootNamespace>StefanS_P0</RootNamespace>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
   </PropertyGroup>
-
-    <ItemGroup>
-      <PackageReference Include="System.Data.SqlClient" Version="4.6.0" />
-    </ItemGroup>
-
+  <ItemGroup>
+    <PackageReference Include="System.Data.SqlClient" Version="4.6.0"/>
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.1.0-preview-20211130-02"/>
+    <PackageReference Include="xunit" Version="2.4.2-pre.12"/>
+    <PackageReference Include="xunit.runner.visualstudio" Version="2.4.3"/>
+  </ItemGroup>
 </Project>
