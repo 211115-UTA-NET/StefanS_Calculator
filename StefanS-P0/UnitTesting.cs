@@ -36,7 +36,6 @@ namespace UnitTests
         [Theory]
         [InlineData("hank","hank")]
         [InlineData("fred","fred")]
-        [InlineData("sean","sean")]
         public void Equal_Passwords(string pass, string repeat)
         {
             Assert.Equal(pass,repeat);
